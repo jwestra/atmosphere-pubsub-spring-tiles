@@ -1,0 +1,9 @@
+Atmosphere-pubsub-spring-tiles contains two samples that show a very simplistic setup 
+for Atmosphere/Spring/Tiles using the familiar code from the AtmosphereHandlerPubSub.java sample
+re-written as a Spring Controller.
+
+The samples were created to flesh out a bug introduced in 0.9-SNAPSHOT dealing with URLs and Tiles.
+The alpha WAR runs fine.  The 0.9-SNAPSHOT WAR fails.
+
+They are configured for JBoss EAP 5.1, but could be changed easily to deploy on other servlet containers.
+
